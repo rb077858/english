@@ -1,0 +1,86 @@
+/* הגדרות בסיסיות לכל הדף */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* כיוון קריאה מימין לשמאל */
+    background-color: #f4f7f6; /* רקע בהיר */
+    color: #333;
+}
+
+/* כותרת עליונה (Header) */
+header {
+    background-color: #1a73e8; /* כחול של Google/מיקוד */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+}
+
+/* תוכן ראשי (Main) */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* סקשן/אזור תוכן */
+.section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.section h2 {
+    color: #d9534f; /* צבע אדום מעט בולט */
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* רשימת המשאבים (קישורים) */
+.resource-list {
+    list-style: none; /* מסיר את הנקודות המובנות */
+    padding: 0;
+}
+
+.resource-list li {
+    padding: 10px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+.resource-list li:last-child {
+    border-bottom: none; /* מוריד קו מהפריט האחרון */
+}
+
+/* עיצוב הקישורים */
+a {
+    color: #1a73e8; /* צבע כחול בולט */
+    text-decoration: none; /* מסיר קו תחתון */
+    font-weight: bold;
+    display: block; /* כדי שיתפוס את כל השורה */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0d47a1;
+}
+
+/* הפוטר (תחתית הדף) */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    font-size: 0.85em;
+    color: #777;
+    background-color: #eee;
+}
